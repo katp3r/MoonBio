@@ -40,6 +40,9 @@ export async function GET(request: NextRequest) {
             name: true,
             bio: true,
             avatar: true,
+            music: true,
+            badges: true,
+            font: true,
             createdAt: true
           }
         }

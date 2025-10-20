@@ -18,6 +18,7 @@ model User {
   password  String
   bio       String?
   avatar    String?
+  banner    String?
   music     String?
   badges    String?
   font      String?
